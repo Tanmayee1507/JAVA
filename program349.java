@@ -1,0 +1,16 @@
+//accept string
+//sir 349
+import java.util.*;
+
+class program349
+{
+    public static void main(String Arg[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.println("Enter your name:");
+        String name = sobj.nextLine();
+
+        System.out.println("Your name is:" +name);
+    }
+}
